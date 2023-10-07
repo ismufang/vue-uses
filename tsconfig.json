@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
+    "declaration": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "lib": ["ESNext", "DOM"],
+    "rootDir": "src",
+    "outDir": "esm",
+    "paths": {
+      "vue-uses": ["./src/hooks/index.ts"]
+    },
+    "types": ["vitest/globals"]
+  },
+  "exclude": ["node_modules", "dist", "lib", "esm", "scripts", "coverage"]
+}

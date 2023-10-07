@@ -1,0 +1,23 @@
+# compiled output
+node_modules
+dist
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.idea
+TODOs.md
+coverage
+esm
+lib

@@ -1,0 +1,53 @@
+{
+  "name": "vue-uses",
+  "version": "0.0.7",
+  "description": "A Hooks Library for Vue3 and 2",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "esm"
+  ],
+  "scripts": {
+    "build:cjs": "tsc -p ./tsconfig.prod.json -m CommonJS --outDir lib",
+    "build:es": "tsc -p ./tsconfig.prod.json -m esNext --outDir esm",
+    "build": "rimraf lib esm && pnpm build:cjs && pnpm build:es",
+    "test": "vitest run -c ./vitest.config.ts",
+    "test:watch": "vitest watch -c ./vitest.config.ts",
+    "test:coverage": "vitest run --coverage -c ./vitest.config.ts",
+    "test:2": "vue-demi-switch 2.7 vue2 && vitest run --config ./vitest.config.ts",
+    "test:3": "vue-demi-switch 3 && vitest run --config ./vitest.config.ts",
+    "test:all": "pnpm test:3 && pnpm test:2 && vue-demi-switch 3"
+  },
+  "keywords": [
+    "vue-hooks",
+    "vue-uses",
+    "vue-use"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vue-demi": "latest"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.6",
+    "@vue/test-utils": "^2.4.1",
+    "jsdom": "^22.1.0",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6",
+    "vue": "^3.3.4",
+    "vue2": "npm:vue@2.7"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  }
+}
