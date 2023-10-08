@@ -1,6 +1,6 @@
 # useTimeout
 
-一个可以处理 setTimeout 的 Hook
+Handling `setTimeout`.
 
 ## Usage
 

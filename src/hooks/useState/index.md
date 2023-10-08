@@ -1,6 +1,6 @@
 # useState
 
-管理 state 的 Hook
+Managing state.
 
 ## Usage
 

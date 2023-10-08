@@ -1,6 +1,6 @@
 # useEffectOnce
 
-useEffect 的快捷方式，只在 onMount 和 onBeforeUnmount 阶段执行的 Hook。
+A lifecycle function only during the `mounted` and `beforeUnmount` phases.
 
 ## Usage
 

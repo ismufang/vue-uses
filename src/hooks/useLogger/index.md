@@ -1,6 +1,6 @@
 # useLogger
 
-在控制台记录 vue 生命周期变化的 Hook。
+Logging Vue lifecycle changes to the console.
 
 ## Usage
 

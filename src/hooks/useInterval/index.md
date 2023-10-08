@@ -1,6 +1,6 @@
 # useInterval
 
-方便处理 setInterval 的 Hook。
+Handling `setTimeout`.
 
 ## Usage
 

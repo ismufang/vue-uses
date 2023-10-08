@@ -1,6 +1,6 @@
 # useCounter
 
-管理计数器的 Hook。
+Managing counters.
 
 ## Usage
 

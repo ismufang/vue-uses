@@ -1,6 +1,6 @@
 # usePolling
 
-一个管理轮询的 Hook
+Managing polling.
 
 ## Usage
 

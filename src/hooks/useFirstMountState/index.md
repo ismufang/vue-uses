@@ -1,6 +1,6 @@
 # useFirstMountState
 
-检查当前的组件是否为第一次渲染的 Hook。
+Detecting whether the current render is the first render.
 
 ## Usage
 
