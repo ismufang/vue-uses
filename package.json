@@ -1,6 +1,6 @@
 {
   "name": "vue-uses",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Hooks Library for Vue3 and 2",
   "main": "lib/index.js",
   "module": "esm/index.js",
