@@ -1,6 +1,6 @@
 # useBoolean
 
-管理 boolean 状态的 Hook。
+Managing state.
 
 ## Usage
 

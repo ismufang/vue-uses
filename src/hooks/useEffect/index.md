@@ -1,6 +1,6 @@
 # useEffect
 
-方便管理生命周期的 Hook，立即运行一个函数，同时响应式地追踪其依赖，并在依赖更改时重新执行。
+Conveniently managing component lifecycle, running a function immediately, tracking its dependencies reactively, and re-executing when dependencies change.
 
 ## Usage
 

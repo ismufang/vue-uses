@@ -1,0 +1,12 @@
+package.json
+dist
+.DS_Store
+.eslintignore
+.gitignore
+.prettierignore
+.eslintcache
+*.lock
+pnpm-lock.yaml
+coverage
+esm
+lib

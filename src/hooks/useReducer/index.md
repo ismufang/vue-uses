@@ -1,8 +1,8 @@
 # useReducer
 
-适用于复杂状态管理的 Hook。
+Complex state management.
 
-在某些场景下，useReducer 会比 useState 更适用，例如 state 逻辑较复杂且包含多个子值，或者下一个 state 依赖于之前的 state 等。并且，使用 useReducer 还能给那些会触发深更新的组件做性能优化，因为你可以向子组件传递 dispatch 而不是回调函数 。
+In certain scenarios, `useReduce` may be more suitable than `useState`, such as complex state logic with multiple sub values, or the next state relying on the previous state. Moreover, using useReducer can also optimize performance for components that trigger deep updates, as you can pass patches to sub components instead of callback functions.
 
 ## Usage
 

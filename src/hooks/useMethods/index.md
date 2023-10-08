@@ -1,6 +1,6 @@
 # useMethods
 
-一个 useReducer 简化版的 Hook
+A simplified version of `useReducer`.
 
 ## Usage
 

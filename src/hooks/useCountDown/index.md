@@ -1,6 +1,6 @@
 # useCountDown
 
-一个用于管理倒计时的 Hook
+Managing countdowns.
 
 ## Usage
 

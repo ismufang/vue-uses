@@ -27,13 +27,13 @@ const [state, { toggle, setFalse, setTrue }] = useBoolean()
 
   - [`useState`](./src/hooks/useState/index.md) &mdash; managing state.
   - [`useReducer`](./src/hooks/useReducer/index.md) &mdash; complex state management.
-  - [`useToggle`](./src/hooks/useToggle/index.md) &mdash; oggling between two states.
+  - [`useToggle`](./src/hooks/useToggle/index.md) &mdash; toggling between two states.
   - [`useBoolean`](./src/hooks/useBoolean/index.md) &mdash; managing boolean values.
 
 - **Scene**
 
   - [`useCounter`](./src/hooks/useCounter/index.md) &mdash; managing counters.
-  - [`useMethods`](./src/hooks/useMethods/index.md) &mdash;  A simplified version of `useReducer`.
+  - [`useMethods`](./src/hooks/useMethods/index.md) &mdash; A simplified version of `useReducer`.
   - [`useCountDown`](./src/hooks/useCountDown/index.md) &mdash; managing countdowns.
   - [`usePolling`](./src/hooks/usePolling/index.md) &mdash; managing polling.
 
