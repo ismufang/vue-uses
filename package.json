@@ -63,6 +63,14 @@
       "prettier -c --write --ignore-unknown"
     ]
   },
+  "homepage": "https://github.com/ismufang/vue-uses#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ismufang/vue-uses"
+  },
+  "bugs": {
+    "url": "https://github.com/ismufang/vue-uses/issues"
+  },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged && pnpm test"
   },
